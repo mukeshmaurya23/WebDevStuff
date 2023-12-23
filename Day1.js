@@ -46,6 +46,7 @@
 
 // higherOrderFunction(callbackFunction);
 
+//function currying
 function curryAdd(a) {
   return function (b) {
     return function (c) {
